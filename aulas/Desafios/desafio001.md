@@ -24,5 +24,4 @@
 
 # Mudar a mensagem do ultimo comite
 
-
-asd
+- `git commit --amend` -> permite q você edite a mensagem do último commit que você fez antes do push
