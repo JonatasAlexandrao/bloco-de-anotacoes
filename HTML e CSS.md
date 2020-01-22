@@ -44,13 +44,6 @@ Os navegadores tem padrões proprios de comportamento para as tags HTML por caus
 
 - `clear`: right        limpa a linha a direita, como uma quebra de linha.
 
-<b>Display:</b>
-
-- `display: inline`:   deixa elementos na mesma linha. As propriedade width e heigth não funcionam em display inline. 
-- `display: block`:    não deixa os elementos na mesma linha. Permite definir width e height.
-- `display: inline-block`: permite elementos na mesma linha e deixa ser definido width e height. 
-
-
 <b>CORES:</b>
 - `color`:              muda cor do texto;
 - `background-color`:   muda cor do fundo;
