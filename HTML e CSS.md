@@ -91,11 +91,15 @@ Os navegadores tem padrões proprios de comportamento para as tags HTML por caus
 - `margin`:  "respiro externo", é responsavel pelo espaço entre um elemento e outro, a distancia q um elemento fica um do outro.
     - tem todas as caracteristicas do padding.
 
-- `top` e `bottom`: empurram o elemento para cima / baixo com relação a página. Mexem com o eixo X.
+    - `top` e `bottom`: empurram o elemento para cima / baixo com relação a página. Mexem com o eixo X.
 
-- `left` e `right`: empurram o elemento para esquerda / direita com relação a página. Mexem com o eixo Y.
+    - `left` e `right`: empurram o elemento para esquerda / direita com relação a página. Mexem com o eixo Y.
 
-- `transform: translate(-50%)`: ele move a posição do elemento, como se mudasse o eixo do elemento, normalmente com o -50%, para o centro dele.
+    - `transform: translate(-50%)`: ele move a posição do elemento, como se mudasse o eixo do elemento, normalmente com o -50%, para o centro dele.
+
+    - `auto`: Se for usado o valor auto o próprio navegador passa a calcular a posição que o elemento vai ficar, dessa forma se o tamanho do elemento mudar a posição muda junto pq é o navegador que está calculando.
+        - `margin-left: auto`: vai posicionar o elemento encostado a direita, se for right vai para a esquerda... 
+        - Centralizar: usar auto no margin-left e no margin-right.
 
 <b>POSITION:</b>
 
