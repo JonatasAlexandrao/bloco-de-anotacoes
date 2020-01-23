@@ -36,7 +36,41 @@
 - Se tivermos um <img> ou um display:inline ou um display:inline-block logo em seguida de um elemento com float, esse elemento vai se encaixar ao lado daqueles q estão flutuando. Se não couber ele fica logo abaixo.
 
 
- `overflow: hidden`: tem o poder de esconder qualquer elemento filho que ultrapasse o tamanho do pai. Quando o pai não tem altura e largura definidas ele considera as dos filhos, mesmo q estejam em outro contexto.
+`overflow: hidden`: tem o poder de esconder qualquer elemento filho que ultrapasse o tamanho do pai. Quando o pai não tem altura e largura definidas ele considera as dos filhos, mesmo q estejam em outro contexto.
 
 
 `clear`: é usada para limpar o contexto caso tenho um elemento flutuando ao lado esquerdo(left), direito(right) ou ambos(both).
+
+---------------------------
+---------------------------
+
+# POSITION
+
+# `position: static`
+    1. Static é o valor padrão dos elementos.
+    2. Ela não se move.
+    3. 
+
+
+# `position: relative`
+    1. Permite o uso de top e left.
+    2. Usado na div pai para poder ser respeitada quando os filhos tiverem usando absolute. 
+
+
+- `z-index`: move o lemento do eixo z (pode deixar algo a frente ou atraz um do outro). Seu valor padrão é 0. 
+
+# `position: absolute`
+    1. Quando usado cria um novo contexto levando o elemento para frente e o resto ocupa seu antigo espaço sumindo atraz dele.
+    2. Usa como referencia de posicionamento o browser.
+
+
+- `right, top, bottom e left`: podem ser usadas com o position, o unico q não vai usa-las é o absolute q não se move. Usando um `position: absolute` e um `right: 0;` vc posiciona o elemento grudado a direita da tela, isso serve para os outros tb.
+
+- `transform: translateX(-50%)`: usado junto com o `right: 50%` para centralizar uma div pelo seu centro.
+
+# `position: fixed`
+    1. Fixa a posição do elemento na tela, mesmo q o usuario role o scroll o elemento vai ficar no mesmo local em relação a tela.
+    2. Seu alinhamento passa a usar como referencia o browser, logo se for usado um right:0 o elemento vai grudar a direita.
+
+
+- `box-sizing: border-box`: quando usado um width: 100% significa q a largura vai ser o tamanho da largura do browser, porém caso vc tenha usado um padding(respiro interno) esse valor vai ser adicionado ao total (100% + 20px do padding). Para resolver isso deve se adicionar a propriedade `border-box` que vai limitar o elemento ao tamanho maximo do browser, quando usado o padding agora ele fara a conta diminuindo o tamanho do elemento e agrecentando o tamanho do padding para dessa forma ter o tamanho total serpre o mesmo.
