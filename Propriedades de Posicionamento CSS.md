@@ -27,6 +27,9 @@
 
 ```
 
+- `vertical-align`: serve para alinhar dois elementos que estão setados como display: inline-block. Eles serão alinhados por `top, middle...`
+  
+
 -------------------------
 -------------------------
 

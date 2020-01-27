@@ -17,3 +17,9 @@ ctrl+shift+p
 linguagem
 html (ou a linguagem q quiser)
 ```
+
+# Aparecer a ajuda do vsCode para o auto complemento
+
+```
+ctrl + space
+```

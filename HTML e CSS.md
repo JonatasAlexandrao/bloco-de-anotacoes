@@ -23,10 +23,12 @@
 - `<title>`:            é o titulo do site q aparece na aba do navegador
 
 <b>TAGS DE ESTRUTURA:</b>
-- `<nav>`:              navegação - menus
-- `<header>`:           cabeçalho da pagina
-- `<div>`:              é uma tag visual, deve se dar preferencia para coisas visuais, como uma divisão de página.
-
+- `<nav>`:     navegação - menus
+- `<header>`:  cabeçalho da pagina
+- `<div>`:     é uma tag visual, deve se dar preferencia para coisas visuais, como uma divisão de página.
+ - `<dl>`:      (description list) é usada para englobar uma descrição (de um produto por exemplo).
+    - `<dt>`:   (description title) titulo, nome do produto.
+    - `<dd>`:   (define description) é a descrição em si do produto, sua definição.    
 
 # CSS
 
@@ -47,6 +49,7 @@ Os navegadores tem padrões proprios de comportamento para as tags HTML por caus
 <b>CORES:</b>
 - `color`:              muda cor do texto;
 - `background-color`:   muda cor do fundo;
+- `background-color: transparent`:   Deixa o fundo transparente;
 
 <b>TEXTO:</b>
 - `font-size`:          tamanho da fonte;
