@@ -66,7 +66,7 @@
 
 - `right, top, bottom e left`: podem ser usadas com o position, o unico q não vai usa-las é o absolute q não se move. Usando um `position: absolute` e um `right: 0;` vc posiciona o elemento grudado a direita da tela, isso serve para os outros tb.
 
-- `transform: translateX(-50%)`: usado junto com o `right: 50%` para centralizar uma div pelo seu centro.
+- `transform: translateX(-50%)`: usado junto com o `left: 50%` para centralizar uma div pelo seu centro.
 
 # `position: fixed`
     1. Fixa a posição do elemento na tela, mesmo q o usuario role o scroll o elemento vai ficar no mesmo local em relação a tela.
