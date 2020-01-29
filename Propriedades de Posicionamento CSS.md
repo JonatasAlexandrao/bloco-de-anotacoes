@@ -24,6 +24,7 @@
 3. Ele também herda o comportamento de uma palavra (igual ao display:inline, por isso o espaço entre os elementos)
 4. Por se comportarem como palavras podem ser afetadas pelo text-align.
 5. Seu for usado o justify no text-align, para separar os elemento pro igual na tela, lembrar q ele não justifica a ultima linha. Para resolver isso deve criar um :after no css q vai adicionar um texto na tela, ai vc faz ele ficar na ultima linha sozinho e o deixa sem conteudo.
+6. Por ele herdar o comportamento de palavra ele passa a ser considerado Conteúdo. Por isso se usado depois de um elemento com float ele ira ficar ao lado pois uma caracteristica do float e não sobrepor conteúdo.
 
 ```
 

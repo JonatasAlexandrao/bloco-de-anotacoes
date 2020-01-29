@@ -1,7 +1,7 @@
-# Desafio 1
+# Desafio 1 (ok)
 mudar as fontes para o padrão do projeto, tamanho, cor, espaçamento.
 
-# Desafio 2
+# Desafio 2 (ok)
 botões ficarem um do lado do outro
 
 # Desafio 3

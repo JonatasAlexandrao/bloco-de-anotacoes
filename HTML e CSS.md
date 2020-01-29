@@ -22,13 +22,17 @@
 - `<link rel="stylesheet" href="">`: linka o arquivo css oa seu html
 - `<title>`:            é o titulo do site q aparece na aba do navegador
 
+
 <b>TAGS DE ESTRUTURA:</b>
 - `<nav>`:     navegação - menus
 - `<header>`:  cabeçalho da pagina
 - `<div>`:     é uma tag visual, deve se dar preferencia para coisas visuais, como uma divisão de página.
  - `<dl>`:      (description list) é usada para englobar uma descrição (de um produto por exemplo).
     - `<dt>`:   (description title) titulo, nome do produto.
-    - `<dd>`:   (define description) é a descrição em si do produto, sua definição.    
+    - `<dd>`:   (define description) é a descrição em si do produto, sua definição.
+
+<b>TAGS SEMANTICAS</b>
+- `<strong>`:   serve para marcar que o que tem dentro dela é muito importante, para o navegador dar mais importancia a ela.    
 
 # CSS
 
