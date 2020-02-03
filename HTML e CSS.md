@@ -119,6 +119,15 @@ Os navegadores tem padrões proprios de comportamento para as tags HTML por caus
 - `class`: pode ser usada varias vezes para replicar as propriedades do css para varias tags. Sempre usar class.
     - Pode se por mais de uma class por tag. Ex.: `class="classe1 classe2"`. No css você pode chamalas separadamente.
 
+<b>Transformações</b>
+
+- `.button-store:hover`: o hover(flutuar) indica alguma coisa q sera feita no momento q o usuario passar o mouse por cima do elemento.
+
+- `.button-store:active`: ativa quando é clicado no elemento.
+
+- `transition: all 700ms linear`: é uma propriedade de transição de uma forma do elemento para outra (quando ele tiver um efeito com :hover). O `all` significa q será feito para todos os elementos, se não deve-se colocar o elemento a ser modificado. `700ms` é o tempo q vai ter para a alteração. `linear` significa q o tempo q será usado para a alteração vai ser linear ela começa e termina na mesma velocidade, existem outras opções onde a animação pode começar lenta e depois ficar bem rápida.
+
+- `transform: scale()`: (escala), pode ser usado para diminuir ou aumentar altura, ou a altura, ou os dois de forma proporcional. Usado com um `.class:active` vai criar um efeito ao clicar no elemento de diminuir ou aumentar.
 
 # Unidades de medida CSS
 
