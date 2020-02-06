@@ -12,6 +12,17 @@
 
 `call to action (cta)`: é o botão que você quer que o usuário click (ex.: botão comprar)
 
+- Criar um elemento HTML usando CSS: deve ser usado apenas para fins visuais sem conteúdo dentro.
+    - `.header-store .action:after`: para criar um elemento depois.
+    - `.header-store .action:befor`: para criar um elemento antes.
+    - Dentro da chamada deve ter um `content: ""` (conteudo).
+    ```
+    .header-store .action:after {
+        contet: "";
+        ...
+    }
+    ```
+
 - Nomenclatura de Classes:
     - Toda classe que começa com um `-` é uma variação (`.-second`). Já existe uma classe base e a variação apenas acrecenta e modifica o necessário para aquele elemento específico.
     - No css uma classe de variação deve ser chamada assim: `.button-store.-second`, dessa forma vc identifica que aquelas propriedades serão usadas apenas no elemento que tiver a classe principal junto da variação.
@@ -27,3 +38,13 @@
 - São técnicas para uma melhor experiencia para o usuário.
 
 - affordance: é facil de usar se é intuitivo.
+
+# Protocolo HTTP e HTTPS
+- são protocolos (é a forma ou padrão defenidos para se comunicar no caso com o servidor)
+- HTTP: agente entra com a url (http://facebook.com) o navegador faz uma requisição no servidor do endereço e o servidor retorna uma resposta.
+    - http://facebook.com: http é o protocolo usado, o resto é o endereço (o dominio) do servidor.
+    - No meio do caminho da requisição o navegador envia o dominio para um servidor DNS ele é responsavel por converter o nome do site para o numero de endereço fisico do servidor que esse site está. O DNS é quem sabe o caminho q vai ter q ser feito para chegar ao servidor do site.
+
+- HTTPS: é o http seguro. Quando é feito uma requisição por https primeiro ele pede uma chave publica ( é uma chave q pode criptografar dados, porém ela não consegue descriptografar) para o servidor, dessa forma o navegador vai ter essa chave e o servidor vai ter outra chave q só serve para descriptografar.
+
+# Protocolo SSH

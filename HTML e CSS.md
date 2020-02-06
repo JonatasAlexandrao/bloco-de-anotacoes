@@ -129,6 +129,8 @@ Os navegadores tem padrões proprios de comportamento para as tags HTML por caus
 
 - `transform: scale()`: (escala), pode ser usado para diminuir ou aumentar altura, ou a altura, ou os dois de forma proporcional. Usado com um `.class:active` vai criar um efeito ao clicar no elemento de diminuir ou aumentar.
 
+- `transform-origin`: escolhe de onde a transformação vai começar.
+
 # Unidades de medida CSS
 
 - `px`: pixel (unidade absoluta);
