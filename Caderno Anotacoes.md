@@ -48,3 +48,24 @@
 - HTTPS: é o http seguro. Quando é feito uma requisição por https primeiro ele pede uma chave publica ( é uma chave q pode criptografar dados, porém ela não consegue descriptografar) para o servidor, dessa forma o navegador vai ter essa chave e o servidor vai ter outra chave q só serve para descriptografar.
 
 # Protocolo SSH
+
+
+# Valor de especificidade
+
+- O css que está no topo tem menos prioriade do que os que vem abaixo dele. Isso quer dizer q ele da mais prioridade pela ordem de leitura.
+- O de baixo vai sobreescrever o de cima.
+- Cada seletor adicionado para chamar um elemento no css da mais prioridade para aquele codigo. 
+```
+.button-store. - second{
+    color: blue;
+}
+.button-store {
+    color: red;
+}
+```
+No caso a cima o elemento vai continuar azul mesmo que você tenha sobreescrevido ele logo a baixo, pq o primeiro seletor é mais especifico é por isso tem um valor maior de especificidade, o q vai dar a ele a prioridade. (10 + 10 contra só 10 do outro)
+
+- Valores dos seletores:
+    - Selector id -> 100
+    - Selector class/ pseudo seletores -> 10
+    - Selector tag -> 1
