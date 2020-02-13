@@ -69,3 +69,13 @@ No caso a cima o elemento vai continuar azul mesmo que você tenha sobreescrevid
     - Selector id -> 100
     - Selector class/ pseudo seletores -> 10
     - Selector tag -> 1
+
+# Pixel
+
+- Pixel fisico: é o valor da resolução que tem nas especificações do aparelho quando vc compra.
+
+- Pixel CSS: é um tamanho diferente do pixel, usado em telas pequenas ele emula um tamanho mais adequado para cada pixel para que fique mais confortavel de se ver.
+<meta name="viewpor" content="width=device-width" /> esse código faz o navegador começar a considerar pelo pixel CSS.
+
+# API do Browser
+- No meio do codigo javaScript vão ter codigos expecificos do navegador, isso é a API do Browser. São codigos que não vão ter se vc usar o js pra backend por exemplo. Esses codigos tem haver para oq vc está usando, não são nativos da linguagem.

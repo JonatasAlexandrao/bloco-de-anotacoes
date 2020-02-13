@@ -18,10 +18,17 @@
 - `<h1>`:               define um titulo
 - `<a href="">`:        define um link e passa pra onde ele vai mandar
 - `<head>`:             cabeça - configurações do site
-- `<meta charset="">`:  define o alfabeto usado, usar o "utf-8"
 - `<link rel="stylesheet" href="">`: linka o arquivo css oa seu html
 - `<title>`:            é o titulo do site q aparece na aba do navegador
 
+<b><meta></b>
+Os metas são configurações que a pagina vai carregar ao iniciar.
+
+- `<meta charset="">`:  define o alfabeto usado, usar o "utf-8"
+
+- `<meta name="viewpor" content="width=device-width" />`: é um codigo que resolve um problema de compatibilidade do navegador chrome. Essa linha faz com que o navegador considere o pixel CSS no lugar do pixel fisico.
+
+- `<meta name="viewpor" content="initial-scale=2.0" />`: escolhe quanto de zoom a pagina deve ser iniciada (2x no exemplo). É usado também com um `initial-scale=1.0`, dessa forma sempre q o usuário entrar no site vai estar com o tamanho normal pq o navegador quarda o ultimo zoom que o usuário usou naquele site.
 
 <b>TAGS DE ESTRUTURA:</b>
 - `<nav>`:     navegação - menus

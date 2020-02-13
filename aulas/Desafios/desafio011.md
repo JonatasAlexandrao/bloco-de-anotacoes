@@ -1,4 +1,4 @@
-# Desafio 1 ()
+# Desafio 1 (ok)
 acertar o respiro q tem entre o meno e o conteudo nos tamanhos menores
 
 # Desafio 2 ()
