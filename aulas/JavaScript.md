@@ -5,6 +5,10 @@
 
 - `let`: é uma variavel local, ela só é visivel dentro do escopo que ela foi criada.
 
+- <b>Array(listas)</b>
+    - `$stars[0]`: pega o primeiro item da lista, dentro dos colchetes vai a posição na lista.
+    - `$stars.length-1`: retorna a quantidade de itens que tem na lista, -1 pq a lista sempre começa do zero. Pode ser usado para pegar o ultimo item tb.
+
 # Propriedades
 - `console.log("")`: para aparecer uma mensagem no console do navegador.
 - `elemento.textContent`: serve para pegar ou mudar o texto de um elemento.
