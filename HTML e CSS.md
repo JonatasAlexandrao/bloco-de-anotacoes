@@ -38,6 +38,11 @@ Os metas são configurações que a pagina vai carregar ao iniciar.
     - `<dt>`:   (description title) titulo, nome do produto.
     - `<dd>`:   (define description) é a descrição em si do produto, sua definição.
 
+<b>Tabelas</b>
+- `<table>`: indica a tabela.
+- `<tr>`: linha.
+- `<td>`: coluna.
+
 <b>TAGS SEMANTICAS</b>
 - `<strong>`:   serve para marcar que o que tem dentro dela é muito importante, para o navegador dar mais importancia a ela.    
 
@@ -147,6 +152,19 @@ Os navegadores tem padrões proprios de comportamento para as tags HTML por caus
 # Design
 
 - Respiro: é o espaço que se dá de um elemento ou outro, podendo ser externo ou interno.
+
+
+# Criando elementos na tela com CSS
+- lembre-se que o css é responsavel por tudo aquilo que é visual, logo só deve se criar um elemento por ele caso seja algo estético e apenas visual.
+
+- `::before`: cria o elemento antes da tag mencionada.
+- `::after`: cria o elemento depois da tag mencionada.
+    - `content:`: precisa ter essa propriedade para o elemento ser criado efetivamente.
+    ```
+    .photo-product::before {
+        content: "";
+    }
+    ```
 
 
 
