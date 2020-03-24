@@ -22,7 +22,7 @@ ls
 # Dicas do Git
 
 - `git init`(começar a seguir as pastas e arquivos de um projeto)
-Esse comando nóa utilizamos para começar um projeto com o Git.
+Esse comando nós utilizamos para começar um projeto com o Git.
 Chamamos a pasta do projeto de repositorio ou só repo. Para usar ele só entrar na pasta do seu projeto e executar assim:
 ```
 git init
@@ -57,3 +57,10 @@ Com esse comando conseguimos ver todos os `commit`s que já fizemos na vida do r
 
 
 - `git remote add origin "link do repositorio"`: adiciona a localização do repositorio que vc quer alimentar. Deve-se criar um repositório anted no github e pegar seu caminho.git 
+
+
+
+
+
+# Aula 9 - configurando SSH
+# Aulas 20 -06:15
