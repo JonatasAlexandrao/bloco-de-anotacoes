@@ -44,7 +44,8 @@ Os metas são configurações que a pagina vai carregar ao iniciar.
 - `<td>`: coluna.
 
 <b>TAGS SEMANTICAS</b>
-- `<strong>`:   serve para marcar que o que tem dentro dela é muito importante, para o navegador dar mais importancia a ela.    
+- `<strong>`:   serve para marcar que o que tem dentro dela é muito importante, para o navegador dar mais importancia a ela.
+- `<article>`:   é um conteudo que se você tirar ele de lugar no site ainda sim ele faz sentido por si só.
 
 # CSS
 

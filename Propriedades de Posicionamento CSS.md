@@ -30,6 +30,14 @@
 
 - `vertical-align`: serve para alinhar dois elementos que estão setados como display: inline-block. Eles serão alinhados por `top, middle...`
   
+# `Display: flex`
+
+1. O pai que tiver display:flex vai passar a mandar no posicionamento do filho.
+2. O pai vai tentar fazer o filho preencher todo o espaço do pai, por isso o filho deve ter um tamanho definido.
+
+- `justify-content `: responsavel pela posição horizontal dos elementos filhos.
+- `align-items `: responsavel pela posição vertical dos elementos filhos.
+
 
 -------------------------
 -------------------------
