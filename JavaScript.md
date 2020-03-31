@@ -1,4 +1,12 @@
 
+# API do DOM
+
+São comandos, mas não são do javaScript.
+Serve para acessar os recursos do browser
+API é o meio do caminho aonde, nesse caso fica entre o javaScript e o navegador.
+
+
+
 # Variaveis
 Variáveis com $ antes indicam que são elementos pegos do html.
 
