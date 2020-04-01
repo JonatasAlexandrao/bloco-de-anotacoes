@@ -37,6 +37,7 @@ Os metas são configurações que a pagina vai carregar ao iniciar.
  - `<dl>`:      (description list) é usada para englobar uma descrição (de um produto por exemplo).
     - `<dt>`:   (description title) titulo, nome do produto.
     - `<dd>`:   (define description) é a descrição em si do produto, sua definição.
+- `<section>`:  responsavel por fazer a separação das partes de um site.
 
 <b>Tabelas</b>
 - `<table>`: indica a tabela.

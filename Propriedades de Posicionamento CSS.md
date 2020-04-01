@@ -34,7 +34,9 @@
 
 1. O pai que tiver display:flex vai passar a mandar no posicionamento do filho.
 2. O pai vai tentar fazer o filho preencher todo o espaço do pai, por isso o filho deve ter um tamanho definido.
+3. Por padrão ele vai tentar apertar tudo em uma unica linha, muitas vezes distorcendo e quebrando elementos para isso. Para permitir que haja quebra de linhas usasse a propriedade `flex-wrap`.
 
+- `flex-wrap: wrap` : permite a quebra de linha, o padrão dessa propriedade é `nowrap`.
 - `justify-content `: responsavel pela posição horizontal dos elementos filhos.
 - `align-items `: responsavel pela posição vertical dos elementos filhos.
 
