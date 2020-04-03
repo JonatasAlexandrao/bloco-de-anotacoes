@@ -5,7 +5,30 @@ São comandos, mas não são do javaScript.
 Serve para acessar os recursos do browser
 API é o meio do caminho aonde, nesse caso fica entre o javaScript e o navegador.
 
+# Arrow Function
+() => {}
 
+- Caso precise q a finction tenha um nome para poder ser chamada em outro lugar vc pode atribuir uma variavel para ela.
+Se não for passado um parametro quando chamada a função ela simplismente passa vazio.
+
+    ```
+    const create = (name) => {...}
+    ```
+
+- Caso só tenha o valor de retorno dentro da function podesse retirar a palavra chave "retorn", podesse tirar as chaves tb.
+
+
+# If ternário
+O if ternário é um if de uma unica linha que retorna um valor. Parecido com if do excel.
+
+- como ele retona um resultado vc pode usar uma variavel pra guarda-lo.
+No exemplo está sendo testado se o nameClass é igual a string. Depois do "?" vem o valor a ser retornado para a condição verdadeiro e depois do ":" o resultado para a condição falça.
+    ```
+    nameClass == "-front" ? "icon-c.png" : "icon-gg.png"
+    ```
+
+# Component Stateless
+É um componente "burro", que não sabe fazer as coisas sozinho. Todos os dados devem ser passados pra ele por parametro, ele só guarda estrutura, layuot e comportamentos.
 
 # Variaveis
 Variáveis com $ antes indicam que são elementos pegos do html.
