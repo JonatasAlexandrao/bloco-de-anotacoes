@@ -48,6 +48,19 @@ alt='Gueio mascote da CollabCode'
 
 Adicionando crase no lugar das aspas vc pode quebrar a linha da string quantas vezes quiser.
 
+# False em JavaScript 
+Eles vão retornar false em um if:
+- Nulo é falso;
+- Undefined é falso;
+- String vazia ("") é falso;
+- Zero (0) é falso;
+
+
+obs.: se o 0 estiver como string ele vai retornar verdadeiro.
+
+
+
+
 # Interação com o HTML
 
 - Pegando elemento:
@@ -87,6 +100,18 @@ Adicionando crase no lugar das aspas vc pode quebrar a linha da string quantas v
             Dentro do elemento, após seu último filho (childNode) .
         - 'afterend'
             Após o elemento.  
+
+# Pegando a origim de um elemento
+- `event`: vai retornar um JSON com todas as informações sobre o elemento.
+- `event.target`: Retorna o caminho do elemento. 
+
+- `$origin.parentNode`: retorna o caminho do pai desse elemento.
+
+- `$origin.closest('classe-procurada')`: retorna o caminho do elemento acima na arvore que tenha a classe passada.
+
+# Verificar se existe uma class no elemento
+- `$elemento.classList.contains('classe')`: verifica se o elemento tem a classe passada e retorna true ou false.
+
 
 
 # Interação com o CSS

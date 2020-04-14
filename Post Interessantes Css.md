@@ -12,3 +12,6 @@ css-tricks display flex
 
 Refaturar o codigo não quando ele se repetir duas vezes pq pode ser q eles não sejam iguais, refature quando ocorrer a terceira vez que assim vc tem mais certeza de sua igualdade.
 
+# Gradiente
+
+https://uigradients.com/#eXpresso
