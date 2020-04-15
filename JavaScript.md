@@ -5,6 +5,18 @@ São comandos, mas não são do javaScript.
 Serve para acessar os recursos do browser
 API é o meio do caminho aonde, nesse caso fica entre o javaScript e o navegador.
 
+# IIFE - Immediately Invoked Function Expression
+
+- Uma função expressa que se invoca imediatamente.
+- Isolar as variaveis por escopo dos arquivos. Isso isola para ter menos efeitos colaterais, deixando global somente o que precisa ser global mesmo.
+- Para fazer isso vc deve criar uma function sem nome que se invoca automaticamente quando for criada, por não ter nome ela tb não podera ser mais chamda.
+```
+(function(){
+    ...
+})()
+```
+
+
 # Arrow Function
 () => {}
 
