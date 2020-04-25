@@ -19,3 +19,18 @@ https://uigradients.com/#eXpresso
 
 # Flat UI colors
 
+
+# UX
+
+Aglomerador de design e desenvolvimento
+https://usepanda.com/
+ - Behance
+ - Dribble
+
+layouts prontos
+https://www.uplabs.com/
+
+
+# Related Palettes
+Combinações de cores que combinam 
+

@@ -53,10 +53,15 @@ Se não for passado um parametro quando chamada a função ela simplismente pass
 # If ternário
 O if ternário é um if de uma unica linha que retorna um valor. Parecido com if do excel.
 
-- como ele retona um resultado vc pode usar uma variavel pra guarda-lo.
+- como ele retorna um resultado vc pode usar uma variavel pra guarda-lo.
 No exemplo está sendo testado se o nameClass é igual a string. Depois do "?" vem o valor a ser retornado para a condição verdadeiro e depois do ":" o resultado para a condição falça.
+    
     ```
     nameClass == "-front" ? "icon-c.png" : "icon-gg.png"
+
+    - Usado bastante para fazer uma variação de cores, ele verifica de a variavel passada é true, se for usa a primeira cor se não for usa a cor depois dos ':'
+    background-color: ${variavel ? "#f25a70" : "#eae6da"};
+
     ```
 
 # Component Stateless
@@ -70,13 +75,15 @@ Variáveis com $ antes indicam que são elementos pegos do html.
 - `let`: uma variável que só funciona no contesto atual.
 
 # Template Strings
-"<img class = 'icon' src='img/icon-collabcode.png' alt='Gueio mascote da CollabCode'>"
+`"<img class = 'icon' src='img/icon-collabcode.png' alt='Gueio mascote da CollabCode'>"`
 
-`<img 
+```
+<img 
 class = 'icon' 
 src='img/icon-collabcode.png' 
 alt='Gueio mascote da CollabCode'
 />`
+```
 
 Adicionando crase no lugar das aspas vc pode quebrar a linha da string quantas vezes quiser.
 
@@ -144,6 +151,17 @@ obs.: se o 0 estiver como string ele vai retornar verdadeiro.
 # Verificar se existe uma class no elemento
 - `$elemento.classList.contains('classe')`: verifica se o elemento tem a classe passada e retorna true ou false.
 
+
+# Spread operator
+- Serve para você passar 'N' parametros para uma function.
+- Ele vai criar um array e colocar cada parametro em uma entrada começando com 0.
+
+`(...$variavel)`
+
+- Existe uma função (.join) que serve para juntar todo o conteudo de um array. Por padrão o array vai sempre retornar usando virgulas para separar cada item guardado, para removelas vc pode usar o .join(""). No parametro do .join vc passa com o que vc quer q os itens sejão juntados, vc pode passar vazio ("") para ele não usar nd para juntar.
+- O join vai retornar um texto.
+
+`(...$variavel).join("")`
 
 
 # Interação com o CSS
