@@ -34,3 +34,5 @@ https://www.uplabs.com/
 # Related Palettes
 Combinações de cores que combinam 
 
+
+# Pesquisar Regex (expressões regulares)

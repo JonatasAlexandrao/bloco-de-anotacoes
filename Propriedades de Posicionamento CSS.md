@@ -40,6 +40,13 @@
 - `justify-content `: responsavel pela posição horizontal dos elementos filhos.
 - `align-items `: responsavel pela posição vertical dos elementos filhos.
 
+# `Display: inline-flex`
+
+Semelhante ao `inline-blck`, é a junção das caracteristicas do inline com o flex.
+
+1. Usa o padrão do inline alinhando o texto a esquerda e no topo.
+2. Permite adicionar os comportamentos do flex.
+
 
 -------------------------
 -------------------------
