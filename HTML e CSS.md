@@ -20,6 +20,9 @@
 - `<head>`:             cabeça - configurações do site
 - `<link rel="stylesheet" href="">`: linka o arquivo css oa seu html
 - `<title>`:            é o titulo do site q aparece na aba do navegador
+- `<form>`:     esse botão só deve ser usado quando vc tiver varios campos para serem enviados de uma vez.
+    - action: para onde ela envia esses dados (caminho do servidor)
+    - metodo: get ou post :
 
 <b><meta></b>
 Os metas são configurações que a pagina vai carregar ao iniciar.
@@ -47,6 +50,7 @@ Os metas são configurações que a pagina vai carregar ao iniciar.
 <b>TAGS SEMANTICAS</b>
 - `<strong>`:   serve para marcar que o que tem dentro dela é muito importante, para o navegador dar mais importancia a ela.
 - `<article>`:   é um conteudo que se você tirar ele de lugar no site ainda sim ele faz sentido por si só.
+ 
 
 # CSS
 

@@ -2,31 +2,28 @@
 
 # `display: inline`
 
-```
 1. Deixa elementos na mesma linha. 
 2. As propriedade width e heigth não funcionam em display inline. Seu tamanho e altura são definidos pelo conteúdo que eles contém.
 3. Ganham um comportamento de uma palavra. 
-```
+
+- Um componente com display: inline vai ignorar margens ao topo!
+
 
 # `display: block`
 
- ```
 1. O elemento passa a ocupar a linha toda, dessa forma não podendo ter outros elementos ao lado.
 2. Permite definir width e height.
 3. A maioria dos elementos vem por padrão com o display: block.
-```
 
 # `display: inline-block`
 
- ```
+
 1. Permite definir largura e altura (essa é o único comportamento que é herdado do display:block).
 2. Permite um elemento ao lado do outro (igual ao display:inline).
 3. Ele também herda o comportamento de uma palavra (igual ao display:inline, por isso o espaço entre os elementos)
 4. Por se comportarem como palavras podem ser afetadas pelo text-align.
 5. Seu for usado o justify no text-align, para separar os elemento por igual na tela, lembrar q ele não justifica a ultima linha. Para resolver isso deve criar um :after no css q vai adicionar um texto na tela, ai vc faz ele ficar na ultima linha sozinho e o deixa sem conteudo.
 6. Por ele herdar o comportamento de palavra ele passa a ser considerado Conteúdo. Por isso se usado depois de um elemento com float ele ira ficar ao lado pois uma caracteristica do float e não sobrepor conteúdo.
-
-```
 
 - `vertical-align`: serve para alinhar dois elementos que estão setados como display: inline-block. Eles serão alinhados por `top, middle...`
   
