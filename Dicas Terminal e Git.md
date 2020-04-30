@@ -58,8 +58,10 @@ Com esse comando conseguimos ver todos os `commit`s que já fizemos na vida do r
 
 - `git remote add origin "link do repositorio"`: adiciona a localização do repositorio que vc quer alimentar. Deve-se criar um repositório anted no github e pegar seu caminho.git 
 
-
-
+## Iginorar uma pasta para não subir ela pro github
+  - Na raiz do projeto criar um arquivo chamado .gitignore
+  - Dentro dele digitar as pastas a serem ignoradas.
+  - Para ignorar as dependencias do node: node_modules
 
 
 # Aula 9 - configurando SSH
