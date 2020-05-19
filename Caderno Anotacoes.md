@@ -1,13 +1,15 @@
+# Abrir servidor no npm
+- npm run dev
 
 # Arquitetura de pastas
 - components: são elementos reaproveitaveis usando as mesmas caracteristicas. Ele não é muito flexivel. 
-
-
 
 # Procurar informações sobre alguma propriedade css
     - Procurar no site da MDN. Ex.: mdn borda;
     - Ela tem a documentação oficial;
 
+# Criar uma nova ramificação no projeto
+git checkout -b nomeDaRamificacao
 
 # CSS
 

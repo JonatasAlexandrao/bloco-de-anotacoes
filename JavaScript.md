@@ -59,7 +59,7 @@ No exemplo está sendo testado se o nameClass é igual a string. Depois do "?" v
     ```
     nameClass == "-front" ? "icon-c.png" : "icon-gg.png"
 
-    - Usado bastante para fazer uma variação de cores, ele verifica de a variavel passada é true, se for usa a primeira cor se não for usa a cor depois dos ':'
+    - Usado bastante para fazer uma variação de cores, ele verifica se a variavel passada é true, se for usa a primeira cor se não for usa a cor depois dos ':'
     background-color: ${variavel ? "#f25a70" : "#eae6da"};
 
     ```
@@ -163,5 +163,13 @@ obs.: se o 0 estiver como string ele vai retornar verdadeiro.
 
 `(...$variavel).join("")`
 
-
+# .bind
+- Alterar quem será o this
+```
+<label 
+    class="eye-collabcode"
+    for="${attrFor}"
+    onClick="eyeCollabcode.handleClick.bind(this)()">Mostrar senha
+</label>
+```
 
