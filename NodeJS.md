@@ -2,18 +2,22 @@
 npnjs.com => site para pesquisar as dependencias 
 
 # Node
-- node é um plataforma, programar em node é programar usando javaScript para o back end. Ele vai servir pra gente rodar o código sem um navegador.
+- node é uma plataforma, programar em node é programar usando javaScript para o back end. Ele vai servir pra gente rodar o código sem um navegador.
 - node é um grupo de APIs que vão servir pra gente rodar o js sem navegador.
   - O node usa o um "motor" chamado V8 o mesmo que é usado pelo navegador do google chrome.
   - HTTP
   - FileSystem
 
-## NPN - Node Package Maneger
+## NPM - Node Package Maneger
 - ele é um gerenciador de pacotes, ele vai gerenciar todas as dependencias do nosso projeto.
 - é por ele que vai ser instalados os pacotes via codigo no terminal.
 - ele controla as dependencias e gerencia os pacotes.
 - Software maiores.
   - mais estavel, gerenciado por uma comunidade muito grande.
+
+  ### NPX
+  - serve para gerenciar pacotes que agente vai usar e depois deletar, dependencias que só vão servier para algo expecifico e que depois não iremos precisar mais delas.
+  - Ele vai usar o NPM para instalar o pacote e depois ele mesmo apaga.
 
 ## yarn
 - é um concorrente do NPN feito pela empresa do facebook
