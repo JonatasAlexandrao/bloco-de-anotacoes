@@ -13,6 +13,8 @@ git checkout -b nomeDaRamificacao
 
 # CSS
 
+- variáveis no css são declaradas usando `--`. Ex.: `--color-first`.
+
 `call to action (cta)`: é o botão que você quer que o usuário click (ex.: botão comprar)
 
 - Criar um elemento HTML usando CSS: deve ser usado apenas para fins visuais sem conteúdo dentro.

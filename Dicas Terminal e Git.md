@@ -63,6 +63,21 @@ Com esse comando conseguimos ver todos os `commit`s que já fizemos na vida do r
   - Dentro dele digitar as pastas a serem ignoradas.
   - Para ignorar as dependencias do node: node_modules
 
+## Branch
+  - é uma linha do tempo do git, inicialmente agente inicia o projeto na branch "master". Essa branch master deve conter os commits de produção, quando a funcionalidade está pronta commita ela na master.
+  - Feature branch: são branchs, linhas, paralelas para trabalhar uma nova funcionalidade. Por convenção quando for criar essa branch usar um nome assim: `feature/nomeDaBranch`
+    - O nome de uma nova branch deve trazer na primeira palavra do que ela é como feature, bug... depois da barra um nome que indique o que está sendo criado.
+
+  ### Comandos da Branch
+    - `git branch`: lista todas as branchs que o projeto tem. (apertar "q" para sair da lista)
+
+    - `git checkout -b tipo/nome`: cria uma nova branch e já entra nela.
+
+    - `git chekout master`: muda de branch que vc está (só trocar o "master" pelo nome de qualquer branch)
+
+    - `git branch -d tipo/nome`: deleta a branch passada, não dá para deletar a branch que vc está.
+
+
 
 # Aula 9 - configurando SSH
 # Aulas 20 -06:15
