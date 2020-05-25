@@ -23,3 +23,15 @@ html (ou a linguagem q quiser)
 ```
 ctrl + space
 ```
+
+# Ligar o servidor de um porjeto Node
+No terminal:
+```
+npm start
+```
+
+# Desligar o servidor de um porjeto Node
+No terminal:
+```
+ctrl + c
+```
