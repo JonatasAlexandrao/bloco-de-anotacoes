@@ -29,12 +29,21 @@
   
 # `Display: flex`
 
+- Tem um comportamento similar ao display:block.
+- Quando vc usa um `display: flex` esse elemento se torna um 'flex container' e seus filhos 'flex item'
+- esse elemento por padrão vai ter uma 'linha que vai da esqueda para a direita indicando a ordem para desenhar os filhos, chamado de `main axis`.
+- cruzando o main axis temos o `cross axis` formando como um plano cartesiano onde o centro é o centro do elemento.
+- main start: é onde começa o elemento (para o nosso idioma na esquerda).
+- main end: é onde termina o elemento (para o nosso idioma na direita).
+- cross start: na parte de cima a esquerda.
+- cross end: na parte de baixo a esquerda.
+
 1. O pai que tiver display:flex vai passar a mandar no posicionamento do filho.
 2. O pai vai tentar fazer o filho preencher todo o espaço do pai, por isso o filho deve ter um tamanho definido.
 3. Por padrão ele vai tentar apertar tudo em uma unica linha, muitas vezes distorcendo e quebrando elementos para isso. Para permitir que haja quebra de linhas usasse a propriedade `flex-wrap`.
 
 - `flex-wrap: wrap` : permite a quebra de linha, o padrão dessa propriedade é `nowrap`.
-- `justify-content `: responsavel pela posição horizontal dos elementos filhos.
+- `justify-content `: responsavel pela posição horizontal dos elementos filhos. Ela trabalha com o eixo do ´main axis´.
 - `align-items `: responsavel pela posição vertical dos elementos filhos.
 
 # `Display: inline-flex`
@@ -43,6 +52,12 @@ Semelhante ao `inline-blck`, é a junção das caracteristicas do inline com o f
 
 1. Usa o padrão do inline alinhando o texto a esquerda e no topo.
 2. Permite adicionar os comportamentos do flex.
+
+
+
+
+
+
 
 
 -------------------------
