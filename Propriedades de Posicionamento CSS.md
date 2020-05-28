@@ -53,8 +53,14 @@ Semelhante ao `inline-blck`, é a junção das caracteristicas do inline com o f
 1. Usa o padrão do inline alinhando o texto a esquerda e no topo.
 2. Permite adicionar os comportamentos do flex.
 
+# Grid container
+- Grid item: o conteudo de dentro de cada quadrado.
+- Grid line: linhas que fazem a divisão do grid.
+- grid track: as colunas e as linhas dessa tabela.
 
+    ## `Display:grid`
 
+    ## `Display:inline grid`
 
 
 
