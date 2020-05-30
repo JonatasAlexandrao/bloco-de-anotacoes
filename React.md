@@ -3,3 +3,8 @@ O react é uma lib (uma biblioteca) de componentização criada pelo facebook ju
   - framework: é como uma caixa de ferramentas cheia de recursos, uma lib é algo bem mais focado.
 
 O react trabalha com uma ideia de componentes para reutilização. 
+
+## Parametros CSS que mudam com o React
+
+`class` --> `className`
+`for`   --> `htmlFor`

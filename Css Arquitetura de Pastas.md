@@ -67,3 +67,8 @@ Um padrão de arquitetura de pastas
     - Objetcs: cuida da parte estrutural, um componente pouco visual que mexe com a estrutura.
     - O padrão para nomear um objetcs ou um components usando RSCSS é `palavra-segunda` (uma palavra - outra palavra).
         - Já um item é nomeado só com uma palavra.
+
+
+- Regras para nomear component e object:
+    - Será sempre usado duas palavras para nomeá-los, a pasta usa camel case (PalavraSegunda), a classe usa - (palavra-sgunda)
+    - Para nomear os filhos usasse somente uma palavra, porem na hora de chamar esse elemento no css sempre deve ser usado o nome do pai jundo do filho (.container-pai > .filho).
