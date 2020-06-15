@@ -8,3 +8,10 @@ O react trabalha com uma ideia de componentes para reutilização.
 
 `class` --> `className`
 `for`   --> `htmlFor`
+
+# Criando um projeto com React
+
+No terminal já na pasta do projeto:
+`npx create-react-app nome-do-projeto`
+se a pasta do projeto já existir: 
+`npx create-react-app .`
