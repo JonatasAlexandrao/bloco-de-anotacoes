@@ -1,0 +1,4 @@
+- São folhas de estilos pré processadas.
+- Elas permitem que vc possa usar recursos de programação no css como loop, condições, variaveis e até funções.
+- Quando for ser usado pelo html essas folhas irão criar um arquivo .css com todo o codigo das folhas pré processadas em versão css normal. Então esse é um método de organizar/facilitar para o desenvolvimento porém quando for ser usado realmente será puro css comum.
+- Outra coisa que é diferente é a sintaxe, dependendo de qual vc escolher. O Sass tem um tipo de arquivo para vc escrever com a sintaxe do css comum e tb tem outro onde não se usa chaves, onde a identação indica quem é filho do que e onde termina os blocos (tipo Python). code
