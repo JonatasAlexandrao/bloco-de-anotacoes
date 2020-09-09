@@ -173,3 +173,12 @@ obs.: se o 0 estiver como string ele vai retornar verdadeiro.
 </label>
 ```
 
+# For usando um Array como contador
+    ```
+    for(let _ of Array(10).fill()){
+        console.log('...')
+    }
+    ``` 
+    Nesse código o for vai rodar 10 vezes. 
+    Se passado um array com uma lista dentro o for vai usar a quantidade de itens para saber quantas vezes ira rodar. 
+

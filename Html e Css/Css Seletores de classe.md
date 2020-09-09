@@ -1,4 +1,6 @@
 # Seletores de Classes:
+  - 30 seletores css
+  https://code.tutsplus.com/pt/tutorials/the-30-css-selectors-you-must-memorize--net-16048
 
   ## Classes de variação (.-A)
   - Toda classe que começa com um `-` é uma variação (`.-second`). Já existe uma classe base e a variação apenas acrecenta e modifica o necessário para aquele elemento específico.

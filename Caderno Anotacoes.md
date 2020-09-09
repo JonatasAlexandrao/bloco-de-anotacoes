@@ -28,14 +28,6 @@ git checkout -b nomeDaRamificacao
     }
     ```
 
-# Funções Callback
-- São funções que são passadas como parametros para outra função. São funcões chamadas como resposta de outro código.
-- A função passada é uma callback:
-    `teste(() => console.log('fn Callback'))`
-
-
-
-
 # User Experience (UX)
 - São técnicas para uma melhor experiencia para o usuário.
 

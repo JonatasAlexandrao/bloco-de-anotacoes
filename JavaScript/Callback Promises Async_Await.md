@@ -1,6 +1,9 @@
-# Callbacks
-  - É uma função que é passada por outra
-  - É uma função asincrona, ela não atrapalha o ciclo de leitoura... por exemplo essa função retorna uma string com os valores de um arquivo que vai ser lido, em vez do programa ficar esperando ele fazer isso pra continuar ele separa essa ação e continua fazendo o resto, quando o resultado vier ele chama essa função de volta.
+
+# Funções Callback
+- São funções que são passadas como parametros para outra função. São funcões chamadas como resposta de outro código.
+- A função passada é uma callback:
+    `teste(() => console.log('fn Callback'))`
+- É uma função asincrona, ela não atrapalha o ciclo de leitoura... por exemplo essa função retorna uma string com os valores de um arquivo que vai ser lido, em vez do programa ficar esperando ele fazer isso pra continuar ele separa essa ação e continua fazendo o resto, quando o resultado vier ele chama essa função de volta.
 
 
 # Promise
