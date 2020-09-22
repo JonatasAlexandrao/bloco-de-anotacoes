@@ -13,7 +13,7 @@ Terminal:
     vue create nomeDoProjeto
     enter
 
-- Pronto, para rodar o projeto:
+- Pronto,k para rodar o projeto:
     npm run serve
 
 ## ERRO na hora de criar um novo projeto
@@ -79,13 +79,45 @@ props: {
 }
 ```
 ## Diretivas
-São propriedades usasdas no HTML que vem do Vue.
+São codigos usados nas propriedades do HTML para que elas consigam entender uma função ou codigo js.
 
-- v-model
+- v-model -> é uma diretiva q altera tanto o visual na tela quanto a variavel por traz, ele link as duas coisas usando o two-way-binding, é o uso de duas diretivas juntas.
+`<input type="text" v-bind:value="titulo"
+    v-on:input="titulo = $event.target.value">`
+ficando assim:
+`<input type="text" v-model="titulo">`
+  
+
+- v-on -> usar ela em propriedades de interação q vc vai passar um evento como Click, Mouse movi. Por padrão sempre que é chamado um evento do browser ele será passado como parametro para seu evento, vc pode usar um 'teste(event)' e pegar esse evento passado para usar usas infomações.
+  - Caso vc queira pegar o event e passar um parametro seu junto vc precisa usar uma palavra reservada chamada $event
+  `teste(num, $event)`
+Ele atualiza do HTML para o javaScript
+Sintaxe reduzida: v-on:click="titulo" --> @click="titulo" 
+
+- v-bind -> muito usada, ela vai fazer a associação da propriedade com a variavel passada, podendo assim passar valores por ela e se alterados mudaram automaticamente.
+`<input type="text" v-bind:value="nome">`
+Ele atualiza do javaScript para o HTML
+Sintaxe reduzida: v-bind:value="contador" --> :value="contador"
+
+- v-html -> serve para acionar codigo html como propriedade. 
+```
+<p v-html="linkhtml"></p>
+
+linkhtml: '<a href="http://google.com.br">Google</a>'
+```
+
+- v-once -> vc usa dentro de uma tag html como uma propriedade e isso vai garantir que ela seja alterada apenas a primeira vez.Ex.: `<p v-once>{{ titulo }}</p>`
+
 - v-if -> usa uma condição if como propriedade HTML para verificar se o elemento vai aparecer, se ele não for ele "destroi" o elemento e dessa forma ele some até da arvore do Doom (caso o valor altere em execução ele reconstroi para aparecer).
+
+*** Caso vc queira usar um v-if em um grupo de codigo em vez de envolve-lo com uma tag div vc pode usar a tag <template> essa tag vai funcionar igual a div com a diferença de q quando o elemento for renderizado na tela ela some deixando os itens juntos mas sem nem uma tag agrupando.
+
 - v-else -> deve ser usado logo abaixo ao v-if
+
 - v-else-if
-- v-show -> usa uma condição igual ao if mas para sumir com o elemento ele usa um display: none. Não existe uma opção para o else.
+
+- v-show -> usa uma condição igual ao if mas para sumir com o elemento ele usa um display: none. Não existe uma opção para o else. Ele é bom para esconder algum conteúdo q vc vai reutilizar, um menu por exemplo, mas lembre-se o codigo está lá e pode ser acessado pelo código se for alguma coisa de segurança é melhor usar o v-if.
+
 - v-for -> ele vai replicar o código HTML que ficar dentro da estrutura para cada elemento que tiver no objeto passado pra ele.
   ```
   <div v-for="cliente in clientes" :key="cliente.id">
@@ -100,6 +132,12 @@ São propriedades usasdas no HTML que vem do Vue.
     <p>{{ index }}</p>
   </div>
   ```
+
+## Monitorar Mudanças ( watch )
+No watch diferente das outras propriedades vc deve escolher alguma que já esteja sendo usada para que ela monitore. Ele sempre ira retornar primeiro o valor novo e dpois o valor antigo.
+`watch: {
+      contador(novo, antigo) {
+}`
 
 
 ## Classes condicionais (troca de classe em execução)
@@ -140,6 +178,22 @@ Vc pode criar metodos tb.
     }
   </script>
   ```
+  - $event: Esse retorno do evento peve ser usado com uma palavra chave caso vc esteja passando parametros pernsonalizados.
+  `teste(num, $event)`
+  - O efeito de um evento normamelmente ira propagar para os componentes filhos.
+
+    ### Modificadores de eventos
+    Com eles vc consegue modificar o comportamento padrão do evento.
+    - .stop: `v-on:mousemove.stop=""` dentro desse componente o evento não vai ser propagado.
+    - .prevent: `<a v-on:click.prevent=""  href="http://google.com">Google</a>`
+    Ele impede o comportamento padrão, nesse caso o link não ira acessar o google.
+    #### Eventos de teclado
+    Usando por exemplo o v-on:keyup vc pode passar o modificador sendo ele uma tecla do teclado e assim disparar um evento quando ela é precionada, existe um modificador para cada tecla.
+    `v-on:keyup.enter="exibirAlerta"`
+    Vc ainda pode encadear os eventos, dessa forma só será acionado o evento quando todas as teclas passadas forem precionadas.
+    `v-on:keyup.enter.alt="exibirAlerta"`
+
+
 
   ## Filters:
   Um filtro sempre recebe um valor e tem que retornar algo.
@@ -172,6 +226,8 @@ Vc pode criar metodos tb.
     }
   }
   ```
+
+ 
 
   ## Bibliotecas
 
