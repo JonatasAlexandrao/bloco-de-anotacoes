@@ -5,6 +5,8 @@
 - Regex é o motor mais popular que le uma expressão regular.
 - Para ver todos os comando é só pesquisar por "regex mdn"
 
+Um código regex sempre estara entre `/ /`
+
 ## Criar Regex
 - `const regex = /palavraDeTeste/`
 
@@ -42,6 +44,41 @@ console.log("resultado: ", resultado)
 - `const regex = /[0-9]{4}/`: indica que é um texto de 4 digitos e verifica se eles são numeros.
 
 - `const regex = /[0-9]{4,8}/`: indica que é um texto com o minimo de 4 digitos e o maximo de 8 e verifica se eles são numeros.
+
+
+## Simbolos:
+
+- `\D`: Qualquer valor q não seja numero
+- `\d`: Qualquer valor q seja numero
+- `g`: global, significa q o regex é para a string toda
+
+- `\d{3}`: pegar 3 numeros, se fosse um \D seriam 3 não numeros
+- `{1,2}`: um ou dois numeros, um intervalo
+- `()`: cria um grupo, dessa forma vc pode criar uma regra mais complexa que trabalha varios pontos da string.
+- `'$1'`: quando se tem um grupo vc referencia eles usando $ mais o numero do grupo assim vc pode chamar cada grupo separadamente e por a sua logia.
+- `\d+`: independente de quantos numeros tiverem
+- `\$`: o sifrão significa o final da string
+- `\.`: o ponto é um caracter especial no regex por isso para usalo como ponto vc precisa por uma barra invertida, isso é para qualquer caracter especial.
+
+  - Exemplos:
+  ```
+  value.replace(/\D/g, '') //toda entrada de valores não numero serão trocadas por 'nada', uma validação para campos de apenas numeros.
+
+  value.replace(/(\d{3})(\d)/, '$1.$2') // quando tiver três numeros seguidos de um quarto numero ai sim vai entrar nessa condição que ira adicionar um ponto depois do terceiro numero
+
+  value.replace(/\123$/) //só ira entrar quando o final da string tiver exatamente ...123
+
+  value.replace(/\^123/) // só ira entrar quando o inicio da string for 123
+  ```
+
+  
+
+
+
+
+
+
+
 
 # Procurando boas regex prontas
 

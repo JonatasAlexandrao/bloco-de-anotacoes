@@ -115,3 +115,13 @@ computed: {
   }
 }
 ```
+## Metodos de ciclo de vida
+  https://dev.to/alexandrefreire/diagrama-do-ciclo-de-vida-vue-js-16dn
+
+### created
+Vai rodar no momento da criação do vue.
+```
+created() {
+  console.log('inicio')
+}
+```

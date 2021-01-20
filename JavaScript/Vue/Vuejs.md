@@ -13,7 +13,7 @@ Terminal:
     vue create nomeDoProjeto
     enter
 
-- Pronto,k para rodar o projeto:
+- Pronto, para rodar o projeto:
     npm run serve
 
 ## ERRO na hora de criar um novo projeto
@@ -95,7 +95,7 @@ Essa tag serve para vc impedir que um componente seja destruido quando ele for t
 São codigos usados nas propriedades do HTML para que elas consigam entender uma função ou codigo js.
 
   ### v-model="variavel"
-  Essa propriedade dentro da tag HTML cria uma ligação aonde sempre que essa variavel mudar o valor no HTML será atualizado reativamente e sempre que o valor da variavel mudar internamente o elemento ira mudar tb. Issso se chama two-way data binding seria como uma via de mão dupla.
+  Essa propriedade dentro da tag HTML cria uma ligação aonde sempre que essa variavel mudar o valor no HTML será atualizado reativamente e sempre que o valor da variavel mudar internamente o elemento ira mudar tb. Isso se chama two-way data binding seria como uma via de mão dupla.
   - v-model -> é uma diretiva q altera tanto o visual na tela quanto a variavel por traz, ele link as duas coisas usando o two-way-binding, é o uso de duas diretivas juntas.
   ```
   <input type="text" v-bind:value="titulo"
