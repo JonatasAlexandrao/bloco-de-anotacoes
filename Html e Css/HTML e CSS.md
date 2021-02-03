@@ -33,6 +33,18 @@ Os metas são configurações que a pagina vai carregar ao iniciar.
 
 - `<meta name="viewpor" content="initial-scale=2.0" />`: escolhe quanto de zoom a pagina deve ser iniciada (2x no exemplo). É usado também com um `initial-scale=1.0`, dessa forma sempre q o usuário entrar no site vai estar com o tamanho normal pq o navegador quarda o ultimo zoom que o usuário usou naquele site.
 
+## Tabelas
+`<table>`: tag que cria a tabela
+`<caption>`: tag para o titulo da tabela, ela fará parte da tabela.
+`<th>`: tag para criar o cabeçalho da tabela
+    - `<... colspan="2">`: usando o colspan 2 essa coluna vai 'mesclar' ocupando o espaço de duas celulas.
+    - `<... rowspans="4">`: 'mescla' 4 linhas
+`<tr>`: tag para cria uma linha na tabela
+`<td>`: tag para criar uma celula dentro da linha
+`<thead>`: tag semantica para indicar onde fica o head da tabela e ajudar no css
+`<tfoot>`: tag semantica para indicar onde fica o rodape da tabela e ajudar no css, mesmo q ela não fique no final o html vai entender e colocar seu conteudo lá.
+`<tbody>`: tag semantica para indicar onde fica o corpo da tabela e ajudar no css
+
 <b>TAGS DE ESTRUTURA:</b>
 - `<nav>`:     navegação - menus
 - `<header>`:  cabeçalho da pagina

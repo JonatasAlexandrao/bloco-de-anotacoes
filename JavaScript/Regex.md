@@ -51,6 +51,10 @@ console.log("resultado: ", resultado)
 - `\D`: Qualquer valor q não seja numero
 - `\d`: Qualquer valor q seja numero
 - `g`: global, significa q o regex é para a string toda
+- `i`: insensitive, a pesquisa vai pegar strings com letra maiúsculas tb. 
+- `*`: (opcionais) 0 ou n
+- `+`: (obrigarório) 1 ou n
+- `?`: (opcionais) 0 ou 1
 
 - `\d{3}`: pegar 3 numeros, se fosse um \D seriam 3 não numeros
 - `{1,2}`: um ou dois numeros, um intervalo
@@ -71,9 +75,13 @@ console.log("resultado: ", resultado)
   value.replace(/\^123/) // só ira entrar quando o inicio da string for 123
   ```
 
-  
+  ## Funções Regex
+    - .teste: retorna um true ou false caso exista ou não a string. `regex.test(txt)`
+    - .exec `regex1.exec(texto)`
+    - .match: `texto.match(regex1)`
 
-
+  ## Função para remover acentos
+  `texto.normalize('NFD').replace(/[\u0300-\u036f]/g, '')`
 
 
 
