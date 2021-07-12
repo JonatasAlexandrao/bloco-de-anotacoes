@@ -11,8 +11,13 @@
 
 - `overflow-y: scroll`: adiciona um scroll do lado direito.
 
+- `font-variant: small-caps;`: Deixa todas as letras mas pequenas e só aquelas que eram pra ser maiusculas ficam maior.
+
 ?quality=1080p
 
 # HTML
 - `tabindex=-1`: a ordem de tabulação dos itens, como o tab vai passar de um input para outro por exemplo. O -1 garante que a tabulação pule esse item.
 - `autofocus`: o item é focado quando a página é carregada.
+
+
+- box-shadow: [distância horizontal] [distância vertical] [blur] [(opcional) spread|extensão] [cor]

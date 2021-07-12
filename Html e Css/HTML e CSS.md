@@ -33,6 +33,10 @@ Os metas são configurações que a pagina vai carregar ao iniciar.
 
 - `<meta name="viewpor" content="initial-scale=2.0" />`: escolhe quanto de zoom a pagina deve ser iniciada (2x no exemplo). É usado também com um `initial-scale=1.0`, dessa forma sempre q o usuário entrar no site vai estar com o tamanho normal pq o navegador quarda o ultimo zoom que o usuário usou naquele site.
 
+- `<met name="author" content="Jonatas">`: usado para registrar o autor da página.
+
+- `<meta name="description" content="Um website para alguma coisa ai">`: Esse texto vai aparecer na descrição do seu site quando ele aparecer em um site de busca como o google.
+
 ## Tabelas
 `<table>`: tag que cria a tabela
 `<caption>`: tag para o titulo da tabela, ela fará parte da tabela.
@@ -56,8 +60,15 @@ Os metas são configurações que a pagina vai carregar ao iniciar.
 
 <b>Tabelas</b>
 - `<table>`: indica a tabela.
-- `<tr>`: linha.
-- `<td>`: coluna.
+    - `<caption>`: Texto para explicar oq a tabela está fazendo(titulo).
+    - `<colgroup>`: tag para agrupar colunas de forma semantica e ajudar tanto na estilização quanto do SEO.
+        -`<col>`: tag q identifica a coluna.
+    - `<thead>`: tag semantica, cabeçalho da tabela.
+    - `<tbody>`: tag semantica corpo da tabela.
+    - `<tfoot>`: tag semantica, rodape da tabela.
+        - `<tr>`: linha.
+        - `<th>`: coluna do cabeçalho.
+        - `<td>`: coluna.
 
 <b>TAGS SEMANTICAS</b>
 - `<strong>`:   serve para marcar que o que tem dentro dela é muito importante, para o navegador dar mais importancia a ela.
