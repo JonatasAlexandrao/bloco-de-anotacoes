@@ -5,13 +5,13 @@
 
 - `outline: none;`: tira aquela linha q contorna o botão quando selecionado.
 
-- `user-select: none`: impede que o testo do elemento seja selecionado. Mas cada browser trata de um jeito pois não é padronizado pela W3C.
+- `user-select: none`: impede que o texto do elemento seja selecionado. Mas cada browser trata de um jeito pois não é padronizado pela W3C.
 
 - `pointer-events: none`: faz com que a interação do ponteiro do mouse com o elemento seja passado para o elemento de trás. Isso impossibilita clicar.
 
 - `overflow-y: scroll`: adiciona um scroll do lado direito.
 
-- `font-variant: small-caps;`: Deixa todas as letras mas pequenas e só aquelas que eram pra ser maiusculas ficam maior.
+- `font-variant: small-caps;`: Deixa todas as letras mais pequenas e só aquelas que eram pra ser maiusculas ficam maior.
 
 ?quality=1080p
 
