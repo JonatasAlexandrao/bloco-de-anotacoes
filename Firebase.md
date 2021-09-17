@@ -1,7 +1,7 @@
 Instalar no projeto o firebase
   `npm install firebase`
 
-Criar uma pasta e um arquijo firebase.js
+Criar uma pasta e um arquivo firebase.js
   - nele vc importa o firebase e add as configurações q vc pega do site do firebase.
 
 ```
@@ -24,7 +24,7 @@ export const db = app.database()
 
 ## set()
   `db.ref('nomeTabelaBD/').set({objComOsDados})`
-  Salva dados em uma referência específica e substitue os dados existentes. (Tipo um push)
+  Salva dados em uma referência específica e substituem os dados existentes. (Tipo um push)
 
 ## push().set()
   `db.ref('nomeTabelaBD/').push().set({objComOsDados})`
@@ -40,7 +40,7 @@ export const db = app.database()
     }
   }
   ```
-  Ele busca o conteudo da tabela, mas vc precisa fazer um forEach para acessar seus itens e filtrar se for o caso.
+  Ele busca o conteúdo da tabela, mas vc precisa fazer um forEach para acessar seus itens e filtrar se for o caso.
 
 ## update()
 

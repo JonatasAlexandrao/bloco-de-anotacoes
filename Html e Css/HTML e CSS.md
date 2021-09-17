@@ -3,7 +3,7 @@
 É uma linguagem de marcação que tem as seguintes responsabilidades:
 
 - Conteúdo; 
-- Semântico (tags de forma correta) - Demarca o que é cada conteudo;
+- Semântico (tags de forma correta) - Demarca o que é cada conteúdo;
 - Estrutura
 
 
@@ -20,18 +20,18 @@
 - `<head>`:             cabeça - configurações do site
 - `<link rel="stylesheet" href="">`: linka o arquivo css oa seu html
 - `<title>`:            é o titulo do site q aparece na aba do navegador
-- `<form>`:     esse botão só deve ser usado quando vc tiver varios campos para serem enviados de uma vez.
+- `<form>`:     esse botão só deve ser usado quando vc tiver vários campos para serem enviados de uma vez.
     - action: para onde ela envia esses dados (caminho do servidor)
-    - metodo: get ou post :
+    - método: get ou post :
 
 <b><meta></b>
 Os metas são configurações que a pagina vai carregar ao iniciar.
 
 - `<meta charset="">`:  define o alfabeto usado, usar o "utf-8"
 
-- `<meta name="viewpor" content="width=device-width" />`: é um codigo que resolve um problema de compatibilidade do navegador chrome. Essa linha faz com que o navegador considere o pixel CSS no lugar do pixel fisico.
+- `<meta name="viewpor" content="width=device-width" />`: é um código que resolve um problema de compatibilidade do navegador chrome. Essa linha faz com que o navegador considere o pixel CSS no lugar do pixel físico.
 
-- `<meta name="viewpor" content="initial-scale=2.0" />`: escolhe quanto de zoom a pagina deve ser iniciada (2x no exemplo). É usado também com um `initial-scale=1.0`, dessa forma sempre q o usuário entrar no site vai estar com o tamanho normal pq o navegador quarda o ultimo zoom que o usuário usou naquele site.
+- `<meta name="viewpor" content="initial-scale=2.0" />`: escolhe quanto de zoom a pagina deve ser iniciada (2x no exemplo). É usado também com um `initial-scale=1.0`, dessa forma sempre q o usuário entrar no site vai estar com o tamanho normal pq o navegador guarda o ultimo zoom que o usuário usou naquele site.
 
 - `<met name="author" content="Jonatas">`: usado para registrar o autor da página.
 
@@ -44,35 +44,35 @@ Os metas são configurações que a pagina vai carregar ao iniciar.
     - `<... colspan="2">`: usando o colspan 2 essa coluna vai 'mesclar' ocupando o espaço de duas celulas.
     - `<... rowspans="4">`: 'mescla' 4 linhas
 `<tr>`: tag para cria uma linha na tabela
-`<td>`: tag para criar uma celula dentro da linha
-`<thead>`: tag semantica para indicar onde fica o head da tabela e ajudar no css
-`<tfoot>`: tag semantica para indicar onde fica o rodape da tabela e ajudar no css, mesmo q ela não fique no final o html vai entender e colocar seu conteudo lá.
-`<tbody>`: tag semantica para indicar onde fica o corpo da tabela e ajudar no css
+`<td>`: tag para criar uma celular dentro da linha
+`<thead>`: tag semântica para indicar onde fica o head da tabela e ajudar no css
+`<tfoot>`: tag semântica para indicar onde fica o rodapé da tabela e ajudar no css, mesmo q ela não fique no final o html vai entender e colocar seu conteúdo lá.
+`<tbody>`: tag semântica para indicar onde fica o corpo da tabela e ajudar no css
 
 <b>TAGS DE ESTRUTURA:</b>
 - `<nav>`:     navegação - menus
 - `<header>`:  cabeçalho da pagina
-- `<div>`:     é uma tag visual, deve se dar preferencia para coisas visuais, como uma divisão de página.
+- `<div>`:     é uma tag visual, deve se dar preferência para coisas visuais, como uma divisão de página.
  - `<dl>`:      (description list) é usada para englobar uma descrição (de um produto por exemplo).
     - `<dt>`:   (description title) titulo, nome do produto.
     - `<dd>`:   (define description) é a descrição em si do produto, sua definição.
-- `<section>`:  responsavel por fazer a separação das partes de um site.
+- `<section>`:  responsável por fazer a separação das partes de um site.
 
 <b>Tabelas</b>
 - `<table>`: indica a tabela.
     - `<caption>`: Texto para explicar oq a tabela está fazendo(titulo).
-    - `<colgroup>`: tag para agrupar colunas de forma semantica e ajudar tanto na estilização quanto do SEO.
+    - `<colgroup>`: tag para agrupar colunas de forma semântica e ajudar tanto na estilização quanto do SEO.
         -`<col>`: tag q identifica a coluna.
-    - `<thead>`: tag semantica, cabeçalho da tabela.
-    - `<tbody>`: tag semantica corpo da tabela.
-    - `<tfoot>`: tag semantica, rodape da tabela.
+    - `<thead>`: tag semântica, cabeçalho da tabela.
+    - `<tbody>`: tag semântica corpo da tabela.
+    - `<tfoot>`: tag semântica, rodapé da tabela.
         - `<tr>`: linha.
         - `<th>`: coluna do cabeçalho.
         - `<td>`: coluna.
 
-<b>TAGS SEMANTICAS</b>
-- `<strong>`:   serve para marcar que o que tem dentro dela é muito importante, para o navegador dar mais importancia a ela.
-- `<article>`:   é um conteudo que se você tirar ele de lugar no site ainda sim ele faz sentido por si só.
+<b>TAGS SEMÂNTICAS</b>
+- `<strong>`:   serve para marcar que o que tem dentro dela é muito importante, para o navegador dar mais importância a ela.
+- `<article>`:   é um conteúdo que se você tirar ele de lugar no site ainda sim ele faz sentido por si só.
  
 
 # CSS
@@ -84,7 +84,7 @@ O css é uma linguagem de estilos, isso quer dizer que ela tem as seguintes resp
 
 # Reset CSS
 
-Os navegadores tem padrões proprios de comportamento para as tags HTML por causa disso a página pode aparecer de forma diferente em cada navegador. Para resolver isso você cria um arquivo css com um padrão de reset que vai deixar as tags todas com um mesmo padrao, assim a página aparece igual em todos os navegadores. 
+Os navegadores tem padrões próprios de comportamento para as tags HTML por causa disso a página pode aparecer de forma diferente em cada navegador. Para resolver isso você cria um arquivo css com um padrão de reset que vai deixar as tags todas com um mesmo padrão, assim a página aparece igual em todos os navegadores. 
 *** Lembrando que a chamada do reset sempre deve vir primeiro que os outros arquivos css, se não ele vai sobrescrever o código.
 
 # Propriedades CSS
@@ -101,20 +101,20 @@ Os navegadores tem padrões proprios de comportamento para as tags HTML por caus
 - `font-family`:        escolhe qual fonte será usada;
 - `text-decoration`:    remove ou coloca grifados e outras decorações de texto;
 - `text-align`:         alinhamento do texto (right, center...);
-- `line-height`:        para alinhar verticamente o texto dentro de uma caixa. Só funciona se for uma unica linha, se o texto não for maior que a largura da caixa. Deve se repetir o valor do height da caixa.
+- `line-height`:        para alinhar verticalmente o texto dentro de uma caixa. Só funciona se for uma unica linha, se o texto não for maior que a largura da caixa. Deve se repetir o valor do height da caixa.
 
 # POSICIONAMENTO com CSS
 
 - `float`: (flutuador, flutuar) ela tem dois valores `left` e `right`. 
     - Ele cria um novo contexto (passa a ocupar um espaço a frente como uma camada). 
-    - Ele nunca vai esconder um conteúdo (ele ira empurar o texto paro o lado). 
-    - Ele passa a definir a largura e a altura pelo tamanho do conteudo.
+    - Ele nunca vai esconder um conteúdo (ele ira empurrar o texto paro o lado). 
+    - Ele passa a definir a largura e a altura pelo tamanho do conteúdo.
     - O pai vai ignorar a tag com float, dessa forma o tamanho do pai não vai mais seguir o tamanho desse filho.
 
 - `overflow`:  hidden  (recalcula o contexto - hidden é escondido) se você tiver uma largura e uma altura definida, os elementos filhos q forem maior ficaram escondidos, não sairão de dentro do elemento pai.
     -  se você usar essa propriedade com os elementos filhos usando float ele vai ver q não tem nem um elemento no contexto comum e vai usar o contexto do float para recalcular os tamanhos.
 
-- `padding`:  "respiro interno", ele é responsavel por dar um espaço das bordas do elemento pai, para não ficar grudado com ele.
+- `padding`:  "respiro interno", ele é responsável por dar um espaço das bordas do elemento pai, para não ficar grudado com ele.
     - padding pod ser usado individualmente: 
     ```
     padding-top: 50px; 
@@ -136,8 +136,8 @@ Os navegadores tem padrões proprios de comportamento para as tags HTML por caus
     padding: 55px; 
     ```
 
-- `margin`:  "respiro externo", é responsavel pelo espaço entre um elemento e outro, a distancia q um elemento fica um do outro.
-    - tem todas as caracteristicas do padding.
+- `margin`:  "respiro externo", é responsável pelo espaço entre um elemento e outro, a distancia q um elemento fica um do outro.
+    - tem todas as caraterísticas do padding.
 
     - `top` e `bottom`: empurram o elemento para cima / baixo com relação a página. Mexem com o eixo X.
 
@@ -158,11 +158,11 @@ Os navegadores tem padrões proprios de comportamento para as tags HTML por caus
 - `id`: são unicos, não pode ter outro elemento com o mesmo id. Usar id somente se for mesmo necessario.
 
 - `class`: pode ser usada varias vezes para replicar as propriedades do css para varias tags. Sempre usar class.
-    - Pode se por mais de uma class por tag. Ex.: `class="classe1 classe2"`. No css você pode chamalas separadamente.
+    - Pode se por mais de uma class por tag. Ex.: `class="classe1 classe2"`. No css você pode chama-las separadamente.
 
 <b>Transformações</b>
 
-- `.button-store:hover`: o hover(flutuar) indica alguma coisa q sera feita no momento q o usuario passar o mouse por cima do elemento.
+- `.button-store:hover`: o hover(flutuar) indica alguma coisa q sera feita no momento q o usúario passar o mouse por cima do elemento.
 
 - `.button-store:active`: ativa quando é clicado no elemento.
 
@@ -184,7 +184,7 @@ Os navegadores tem padrões proprios de comportamento para as tags HTML por caus
 
 
 # Criando elementos na tela com CSS
-- lembre-se que o css é responsavel por tudo aquilo que é visual, logo só deve se criar um elemento por ele caso seja algo estético e apenas visual.
+- lembre-se que o css é responsável por tudo aquilo que é visual, logo só deve se criar um elemento por ele caso seja algo estético e apenas visual.
 
 - `::before`: cria o elemento antes da tag mencionada.
 - `::after`: cria o elemento depois da tag mencionada.

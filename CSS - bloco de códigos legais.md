@@ -1,4 +1,4 @@
-# Variaveis de cores
+# Variáveis de cores
   html {
     --color-background-page: rgb(190, 190, 190);
     --color-background: #fcf0e9 ;

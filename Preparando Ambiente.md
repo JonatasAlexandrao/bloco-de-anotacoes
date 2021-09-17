@@ -61,14 +61,14 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 # Vincular pasta com o github
 
 - Criar a pastas no pc e criar o repositori no github
-- Copiar o codigo do repositori criado
+- Copiar o código do repositório criado
 - ir com o hype até a pasta a ser vinculada
 - digitar:
     - git init
-    - git remote add origin (codigo copiado do repositorio)
+    - git remote add origin (código copiado do repositório)
     - git add .
     - git commit -m "frase explicando oq está sendo adicionado"
-    - ai ele vai avisar q vc precisa passar o email e um nome é só copiar o codigo q ele mostra e colocar o email e depois o nome.
+    - ai ele vai avisar q vc precisa passar o email e um nome é só copiar o código q ele mostra e colocar o email e depois o nome.
         git config --global user.email "you@example.com"
         git config --global user.name "Your Name"
     - git push -u origin master --> só na primeira vez 
@@ -76,13 +76,13 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 # SSH gerar chave e terminar de vincular a pasta
 
 - ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
-- confima
+- confirma
 - vc pode por uma senha
 
 - vc deve ir até a pasta criada agora --> /home/k4bun/.ssh
 - ls para ver o conteúdo
 - cat id_rsa.pub
-- copia o codigo q ira aparecer e cola no github na key
+- copia o código q ira aparecer e cola no github na key
 
 ------------------------
 

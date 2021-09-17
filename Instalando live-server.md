@@ -1,6 +1,6 @@
 
 # Live-server como dependente
-- Isntalando dessa forma o live-server fica atrelado ao projeto, assim quando for baixado esse projeto em outra maquina suas dependencias vão junto.
+- Instalando dessa forma o live-server fica atrelado ao projeto, assim quando for baixado esse projeto em outra maquina suas dependências vão junto.
 
 ## Instalação terminal
 - npn i live-server --save-dev

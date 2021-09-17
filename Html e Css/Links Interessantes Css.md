@@ -10,7 +10,7 @@ css-tricks display flex
 # Codigo limpo
 - Martin Fowler
 
-Refaturar o codigo não quando ele se repetir duas vezes pq pode ser q eles não sejam iguais, refature quando ocorrer a terceira vez que assim vc tem mais certeza de sua igualdade.
+Refaturar o código não quando ele se repetir duas vezes pq pode ser q eles não sejam iguais, refature quando ocorrer a terceira vez que assim vc tem mais certeza de sua igualdade.
 
 # Gradiente
 
@@ -22,7 +22,7 @@ https://uigradients.com/#eXpresso
 
 # UX
 
-Aglomerador de design e desenvolvimento
+Aglomerado de design e desenvolvimento
 https://usepanda.com/
  - Behance
  - Dribble
@@ -39,7 +39,7 @@ Combinações de cores que combinam
 
 
 # Exemplos de propriedades css
-  Você pesquisa a prorpiedade e o site mostra uma pequena explicação com exemplo de sintaxe e imagens.
+  Você pesquisa a propriedade e o site mostra uma pequena explicação com exemplo de sintaxe e imagens.
   https://cssreference.io/
 
 # Palhetas de cores
@@ -47,10 +47,10 @@ Combinações de cores que combinam
     Combinações de cores que combinam
   - Coolors.co 
     Apresenta para você uma palheta de cores que combinam entre si.
-      - Vc pode clicar a tecla espaço para ele mostrar uma nova seguencia de cores aleatórias.
+      - Vc pode clicar a tecla espaço para ele mostrar uma nova sequencia de cores aleatórias.
       - Todas as cores já vem com seus códigos para serem copiados.
       - vc pode mudar as cores individualmente.
-      - vc pode travar uma das cores e usar o espaço para procurar uma nova seguencia de cores que tenham essa cor travada.
+      - vc pode travar uma das cores e usar o espaço para procurar uma nova sequencia de cores que tenham essa cor travada.
       - vc pode criar uma conta e salvar suas palhetas de cores.
       - vc tb pode olhar as palhetas que outras pessoas fizeram na plataforma.
 

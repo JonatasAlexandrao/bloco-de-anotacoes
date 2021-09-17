@@ -11,7 +11,7 @@
 
 - `overflow-y: scroll`: adiciona um scroll do lado direito.
 
-- `font-variant: small-caps;`: Deixa todas as letras mais pequenas e só aquelas que eram pra ser maiusculas ficam maior.
+- `font-variant: small-caps;`: Deixa todas as letras mais pequenas e só aquelas que eram pra ser maiúsculas ficam maior.
 
 ?quality=1080p
 

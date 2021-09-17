@@ -3,15 +3,15 @@
   https://code.tutsplus.com/pt/tutorials/the-30-css-selectors-you-must-memorize--net-16048
 
   ## Classes de variação (.-A)
-  - Toda classe que começa com um `-` é uma variação (`.-second`). Já existe uma classe base e a variação apenas acrecenta e modifica o necessário para aquele elemento específico.
+  - Toda classe que começa com um `-` é uma variação (`.-second`). Já existe uma classe base e a variação apenas acrescenta e modifica o necessário para aquele elemento específico.
   - No css uma classe de variação deve ser chamada assim: `.button-store.-second`, dessa forma vc identifica que aquelas propriedades serão usadas apenas no elemento que tiver a classe principal junto da variação.
 
   ## Chamada especifica (.A .b)
-  - `.header-store .action` colocar a class do elemento pai dar um espaço e colocar a class que vc quer trabalhar é uma forma de garantir que só vai ser alterado o elemento q tiver essa classe dentro daquele pai especifico. Isso tambem ajuda ao navegador ir direto onde esta a classe se não ele vai verificar todos os elementos do html para ver se algum usa aquela classe tb.
+  - `.header-store .action` colocar a class do elemento pai dar um espaço e colocar a class que vc quer trabalhar é uma forma de garantir que só vai ser alterado o elemento q tiver essa classe dentro daquele pai especifico. Isso também ajuda ao navegador ir direto onde esta a classe se não ele vai verificar todos os elementos do html para ver se algum usa aquela classe tb.
 
   ## Filho direto (A > B)
-  - `.header-store > .navigation` colocar o simbolo de maior (>) indica que vc quer o elemento que tenha esse pai e seja filho direto dele. Significa que esse elemento não vai estar dentro de um outro elemento filho. É uma forma mais direta ainda de mostrar onde ele está para o navegador.
-  - Aumenta a performace da pagina pq o navegador vai procurar somente dentro daquele pai e quando achar o primeiro filho com aquela classe vai parar.
+  - `.header-store > .navigation` colocar o símbolo de maior (>) indica que vc quer o elemento que tenha esse pai e seja filho direto dele. Significa que esse elemento não vai estar dentro de um outro elemento filho. É uma forma mais direta ainda de mostrar onde ele está para o navegador.
+  - Aumenta a performance da pagina pq o navegador vai procurar somente dentro daquele pai e quando achar o primeiro filho com aquela classe vai parar.
 
   ## Próximo item abaixo (A + B)
   - `.item.-star + .item `. O sinal de mais (+) representa o abaixo. Dessa forma ele só vai selecionar o elemento abaixo do `item.-star` logo a baixo dele que seja um `item`.

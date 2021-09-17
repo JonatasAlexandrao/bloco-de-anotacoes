@@ -81,7 +81,7 @@ body {
 O Sass tem algumas funções já prontas que podem ser chamadas, exemplo:
   - lighten($color, 50%), clareia a cor conforme a porcentagem passada.
   - darken($color, 50%), escurece a cor conforme a porcentagem passada.
-  - transparentize($color, .5), adiciona transparencia a cor, valor entre 0 e 1. 
+  - transparentize($color, .5), adiciona transparência a cor, valor entre 0 e 1. 
 
 Vc pode criar as suas próprias funções, uma função precisa ter um retorno.
 
@@ -97,8 +97,8 @@ Vc pode criar as suas próprias funções, uma função precisa ter um retorno.
 ```
 
 # Placeholder
-Usado para aproveitar um bloco de estilos estatico, valores sem variáveis.
-Sua vantagem é q quando ele converter para css ele irá agrupar os códigos repitidos.
+Usado para aproveitar um bloco de estilos estático, valores sem variáveis.
+Sua vantagem é q quando ele converter para css ele irá agrupar os códigos repetidos.
 ```
 %center {
   display: block;

@@ -1,7 +1,7 @@
 
 # Codigo Limpo e alinhado com a equipe
   - É um grupo de regras que deixam seu código com um padrão reconhecido pela comunidade como boas práticas.
-  - Além disso podesse ser usado programas que vão mostrar um erro quando vc não cumprir uma dessas regras e extenções que vão corrigi-las automaticamente.
+  - Além disso pudesse ser usado programas que vão mostrar um erro quando vc não cumprir uma dessas regras e extensões que vão corrigi-las automaticamente.
 
   # ESLint
   No Terminal: npx eslint --init

@@ -2,7 +2,7 @@
 # font-size: 62.5%
 
 ## Pixel (px)
-É um valor absoluto, não é exatamento o mesmo pixel da tela.
+É um valor absoluto, não é exatamente o mesmo pixel da tela.
 Usado para o elemento sempre ter o mesmo tamanho.
 
 ## Percentual (%)
@@ -19,12 +19,12 @@ Muito usado para acompanhar o tamanho da fonte, o elemento reduz seu tamanho pro
 
 ## rem
 Valor relativo ao tamanho da fonte do elemento RAIZ.
-Igual ao em mas obdece ao elemento raiz(root).
+Igual ao 'em' mas obedece ao elemento raiz(root).
 Se não tiver um valor estabelecido no root o rem usa por padrão 18px.
 1rem = 18px
 
 Se você usar "em" nas medidas dos seus componentes eles ficarão responsiveis e para ajudar vc precisa mudar o valor base do font-size do root, porém o valor tem q ser passado em porcentagem pq se usar pixel ele vai entender que nunca deve mudar desse valor já que pixel é um valor absoluto.
-no root: `font-size: 62.5%` esse valor é equivalente a 10px. Agora fica muito facil converter os valores de pixel para em.
+no root: `font-size: 62.5%` esse valor é equivalente a 10px. Agora fica muito fácil converter os valores de pixel para em.
 
 
 ## Viewport Width (vw)

@@ -6,7 +6,7 @@
   - `transform: translate(100px)`: move para baixo e para direita, valores negativos moveriam para cima e esquerda.
 
   ## scale
-  - `transform: scaleX(1.5)`: aumenta o tamanho do item verticalmente, sendo 1 o tamanho original. Numeros abaixo de zero reduziram seu tamanho (0.5).
+  - `transform: scaleX(1.5)`: aumenta o tamanho do item verticalmente, sendo 1 o tamanho original. Números abaixo de zero reduziram seu tamanho (0.5).
   - `transform: scaleX(1.5)`: aumenta na horizontal.
   - `transform: scale(1.5)`: aumenta proporcional.
 
@@ -27,8 +27,8 @@
   transition: opacity 300ms 200ms linear;
   ```
 
-  - A propriedade transition é responsavel por controlar a mudança de estado de um elemento, sua transição.
-  O primeiro parametro é a propriedade que está sendo usada, o segundo o tempo que essa animação vai levar, o terceiro o tempo que ela vai esperar para começar assim que for ativada e o quarto o tipo de animação.
+  - A propriedade transition é responsável por controlar a mudança de estado de um elemento, sua transição.
+  O primeiro parâmetro é a propriedade que está sendo usada, o segundo o tempo que essa animação vai levar, o terceiro o tempo que ela vai esperar para começar assim que for ativada e o quarto o tipo de animação.
 
 
   ## TransitionEnd
@@ -51,11 +51,11 @@
   `transition-duration: 2s`
 
   ## transition-time-function
-  São funsões que já existem prontas no css
+  São funções que já existem prontas no css
   - ease-in: dá uma suavizada no inicio da transição.
   - ease-out: dá uma suavizada no final da transição.
   - ease-in-out: sá uma suavizada tanto no inicio como no final da transição.
-  - cubic-bezier(.15,.89,.85,.26): permite que vc personalize uma função alterando esses 4 numeros passadas a ela.
+  - cubic-bezier(.15,.89,.85,.26): permite que vc personalize uma função alterando esses 4 números passadas a ela.
 
 # Animation
   ## @keyframes
@@ -94,7 +94,7 @@
   - `Animation-delay: 2s`: tempo de espera antes de começar a animação.
   
 
-  - `Animation:` Forma abreviada, o primeiro parametro é o name, o segundo duration...
+  - `Animation:` Forma abreviada, o primeiro parâmetro é o name, o segundo duration...
   `Animation: nomeAnimacao 1s`
 
   ## Animation-direction
@@ -115,7 +115,7 @@
 
   ## Animation-timing-function:
     Controla a velocidade que a animação será executada.
-    Exemplo: começa mais rápido derepente fica bem lento e volta a ficar rápido no final.
+    Exemplo: começa mais rápido de repente fica bem lento e volta a ficar rápido no final.
     Existe algumas palavras chaves com tempos pre definidos:
       `Animation-timing-function: linear`
       `Animation-timing-function: ease-in`
