@@ -16,3 +16,10 @@ Fazer com que a pagina encaixe tanto em telas grandes quanto pequenas.
 }
 ``` 
 
+  ## Imagem respeitando container pai
+  - `object-fit`: define como um objeto deve se comportar perante um elemento com dimensões definidas.
+    - `fill`: preenche todo o elemento com o conteúdo da imagem, mantendo as dimensões definidas para o elemento, não a proporção da imagem
+    - `contain`: preenche todo o elemento com a maior dimensão da imagem, adaptando a menor dimensão conforme a proporção origina
+    - `cover`: preenche todo o elemento com a menor dimensão da imagem, adaptando a maior dimensão conforme a proporção original, ocultando o conteúdo da imagem que excede as dimensões do elemento
+    - `none`: preenche o elemento com a imagem em seu tamanho original, ocultando o conteúdo que excede as dimensões do elemento
+    - `scale-down`: a imagem será adaptada à sua menor versão entre os resultados de none ou contain
