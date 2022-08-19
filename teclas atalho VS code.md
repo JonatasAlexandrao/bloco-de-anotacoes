@@ -35,3 +35,7 @@ No terminal:
 ```
 ctrl + c
 ```
+# Fechar todas as Funções
+ctrl + k depois ctrl + 0
+# Abrir todas as Funções
+ctrl + k depois crtl + j

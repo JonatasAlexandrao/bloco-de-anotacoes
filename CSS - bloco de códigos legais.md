@@ -11,8 +11,10 @@
   html { box-sizing: border-box; }
   *, *::before, *::after { box-sizing: border-box; }
   h1, h2, h3, p { padding: 0; margin: 0; }
-  li { list-style: none; padding: 0; display: inline;}
+  li { list-style: none; padding: 0; display: inline; }
   ul { padding: 0; }
+  button { border-style: none; cursor: pointer; }
+  :root { font-size: 10px; }
 
 # Definir tamanho do font-size da pagina para 10px para ficar facil usar o tamanho rem
   :root { font-size: 10px; }

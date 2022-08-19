@@ -148,3 +148,9 @@ Usando a @media com o sass vc pode aninhar ela dentro do seletor, em vez de ter 
 Funciona igual ao css.
 Com Sass o padrão é criar um arquivo que ira chamar todos os outros importando eles, para que depois ele possa compilar para css.
 É comum os arquivos Sass terem um _ na frente (_base.scss), isso indica que esse arquivo só deve ser compilado quando for importado.
+
+
+# Função para retornar %
+  Quando vc tiver um container com 1321px e dentro uma div com 455px, vc pode usar a função e converter os 455px para porcentagem.
+  O primeiro valor é o do elemento, o segundo do container total e * 100 para se ter uma porcentagem.
+  `width: math.div(300px, 960px) * 100%;`

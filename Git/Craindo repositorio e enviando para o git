@@ -1,0 +1,16 @@
+# Criando repositorio local
+```
+git init
+git add .
+git commit -m "comentario"
+
+git checkout -b desktop
+
+
+```
+
+```
+git branch -M main
+git remote add origin https://github.com/seu-repositorio
+git push -u origin main
+```
